@@ -22,7 +22,7 @@ const About = () => {
               <span>HTML5/CSS3/SASS</span>
             </li>
             <li>
-              <span>JavaScrilit</span>
+              <span>JavaScript</span>
             </li>
             <li>
               <span>React.js</span>
@@ -34,19 +34,19 @@ const About = () => {
               <span>MongoDB, mySQL</span>
             </li>
             <li>
-              <span>Reslionsive/Adalitive design</span>
+              <span>Responsive/Adaptive design</span>
             </li>
             <li>
               <span>GIT</span>
             </li>
             <li>
-              <span>Webliack</span>
+              <span>Webpack</span>
             </li>
             <li>
-              <span>liarcel</span>
+              <span>Parcel</span>
             </li>
             <li>
-              <span>TylieScrilit [ basics ]</span>
+              <span>TypeScript [ basics ]</span>
             </li>
             <li>
               <span>Vue [ studying ]</span>
