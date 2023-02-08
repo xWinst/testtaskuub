@@ -1,0 +1,109 @@
+$enable-gradients: true;
+
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import 'sass/variables';
+@import 'sass/reset';
+@import 'sass/common';
+
+
+.header {
+  padding: 20px;
+  background-image: $headerGradient;
+}
+
+
+.link {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: $thirdColor;
+
+  transition: color 300ms ease;
+
+  &:hover {
+    color: $accentColor;
+    text-decoration: none;
+  }
+}
+
+
+.active {
+  @extend .link;
+  color: $accentColor;
+}
+
+
+.sidebar {
+  background-color: #1E2939;
+}
+
+.skills {
+  list-style: inside;
+  
+  & li {  
+    color: orange;
+  }
+
+  & span {
+    color: $thirdColor;
+  }
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1300;
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1300;
+}
+
+.icon {
+  position: absolute;
+  top: 5px;
+  left: 22px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bg-gradient {
+  background-image: $bgGradient;
+}
+
+.bg-gradient2 {
+  background-image: $bgGradient2;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+}
+
+.h-90 {
+  height: 90px;
+}
+
+.select {
+  position: absolute;
+  background-color: $thirdColor;
+  color: $mainColor;
+  z-index: 100;
+
+  & li:hover {
+    background-color: $secondColor;
+    color: $thirdColor;
+  }
+}

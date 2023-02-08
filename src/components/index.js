@@ -1,0 +1,11 @@
+export { default as Header } from './Header';
+export { default as Loader } from './Loader/Loader';
+export { default as Modal } from './Modal/Modal';
+export { default as Icon } from './Icon';
+export { default as ContactList } from './ContactList';
+export { default as ContactForm } from './ContactForm';
+export { default as ContactView } from './ContactView';
+export { default as MessageList } from './MessageList';
+export { default as MessageForm } from './MessageForm';
+export { default as MessageEditForm } from './MessageEditForm';
+export { default as Select } from './Select';
